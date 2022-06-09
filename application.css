@@ -3,12 +3,9 @@ body {
   max-width: 800px;
   margin: auto;
   
+  font-family: 'Times New Roman', Times, serif
   line-height: 1.5;
   color: blue;
-}
-
-title {
-  font-family: 'Lato';
 }
 
 main {
@@ -16,8 +13,4 @@ main {
   padding: 5px 40px;
   margin-top: 20px;
   border-radius: 10px;
-}
-
-footer {
-  font-family: 'Times New Roman', Times, serif
 }

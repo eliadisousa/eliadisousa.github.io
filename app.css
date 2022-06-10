@@ -1,0 +1,33 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 800px;
+  margin: 10px;
+  
+  font-family: 'Times New Roman';
+  line-height: 1.5;
+}
+
+.cabeçalho{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.conteúdo{
+  flex: 1 0 auto;
+}
+
+.rodapé{
+  flex-shrink: 0;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
